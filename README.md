@@ -1,2 +1,2 @@
-# Shell Permissions Project
-This project covers Linux file permissions and user switching.
+System Engineering Devops
+Shell Redirections Project
