@@ -1,0 +1,24 @@
+echo "\"(Ôo) >> 0x02-shell_redirections/1-confused_smiley
+
+# Task 2
+echo '#!/bin/bash' > 0x02-shell_redirections/2-hellofile
+echo 'cat /etc/passwd' >> 0x02-shell_redirections/2-hellofile
+
+# Task 3
+echo '#!/bin/bash' > 0x02-shell_redirections/3-twofiles
+echo 'cat /etc/passwd /etc/hosts' >> 0x02-shell_redirections/3-twofiles
+# Task 4
+echo '#!/bin/bash' > 0x02-shell_redirections/4-lastlines
+echo 'tail /etc/passwd' >> 0x02-shell_redirections/4-lastlines
+
+# Task 5
+echo '#!/bin/bash' > 0x02-shell_redirections/5-firstlines
+echo 'head /etc/passwd' >> 0x02-shell_redirections/5-firstlines
+
+# Task 6
+echo '#!/bin/bash' > 0x02-shell_redirections/6-third_line
+echo 'head -n 3 iacta | tail -n 1' >> 0x02-shell_redirections/6-third_line
+
+# Task 7 (The complex filename task)
+echo '#!/bin/bash' > 0x02-shell_redirections/7-file
+echo 'echo Best School >  *\\\"Best School\"'\\*$\?\*\*\*\*\*:)"
